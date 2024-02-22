@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+    
+    background: linear-gradient(135deg, #c3a3f1, #6414e9);
+  }
+
+
+@media only screen and (max-width: 1000px) {
+    .mdbox{
+        width: 650px;
+        height: 800px;
+        background-color: white;
+        padding: 10px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 35px;
+        margin-top: 150px;
+        text-align: center;
+       
+
+    }
+    .mdbox img{
+        width: 400px;
+        margin-top: -150px;
+        margin-left: 110px;
+    }
+    .mdbox h1{
+        font-family: "Lucida Console", "Courier New", monospace;
+        padding: 10px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .mdbox input{
+        margin-top: 20px;
+        width: 480px;
+        margin-left: 75px;
+        height: 150px;
+        border: none;
+        background-color: #db96f8;
+        border-radius: 10px;
+        padding: 10px;
+        color: rgb(85, 20, 225);
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        
+    }
+    .mdbox button{
+        width: 350px;
+        height: 100px;
+        margin-left: 140px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: rgb(101, 3, 125);
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 40px;
+       
+    }
+    .mdbox button:hover{
+        background-color: rgb(49, 128, 180);
+        color: rgb(36, 2, 90);
+        cursor: pointer;
+    }
+    
+    .mdbox button:active{
+        transform: scale(0.90);
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mdbox{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        padding: 10px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 35px;
+        margin-top: 100px;
+
+    }
+    .mdbox img{
+        width: 200px;
+        margin-top: -100px;
+        margin-left: 110px;
+    }
+    .mdbox h1{
+        font-family: "Lucida Console", "Courier New", monospace;
+        padding: 10px;
+        text-align: center;
+    }
+    .mdbox input{
+        margin-top: 20px;
+        width: 330px;
+        margin-left: 55px;
+        height: 80px;
+        border: none;
+        background-color: #db96f8;
+        border-radius: 10px;
+        padding: 10px;
+        color: rgb(85, 20, 225);
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    .mdbox button{
+        width: 150px;
+        height: 60px;
+        margin-left: 150px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: rgb(101, 3, 125);
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: "Lucida Console", "Courier New", monospace;
+       
+    }
+    .mdbox button:hover{
+        background-color: rgb(49, 128, 180);
+        color: rgb(36, 2, 90);
+        cursor: pointer;
+    }
+    
+    .mdbox button:active{
+        transform: scale(0.90);
+    }
+
+}
